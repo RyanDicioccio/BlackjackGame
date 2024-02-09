@@ -2,16 +2,23 @@
 public class Program {
 
 	public static void main(String[] args) {
-	
-		int cardCount = 52;
-		int playerCards = 0;
-		int dealerCards = 0;
+
+		//Deck of cards
+		int[] deck = new int[52];
+		String[] suits = {"Spades", "Clubs", "Hearts", "Diamonds"};
+		String[] rank = {"Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King",};
+
+
+		//Initialize cards
+		for(int i = 0; i < deck.length; i++) {
+			deck[i] = i;
+		}
 		
-		String[] arr1={"A","2","3", "4", "5", "6", "7", "8", "9", "T", "J", "Q", "K"};
-		
-		String newString = arr1[0] + arr1[1];
-		System.out.println(newString);
-		
+		//Shuffle the Cards
+		for(int i = 0; i < deck.length; i++) {
+			
+		}
+
 	}
 
 }
