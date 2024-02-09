@@ -17,6 +17,8 @@ public class Program {
 		//Shuffle the Cards
 		for(int i = 0; i < deck.length; i++) {
 			
+			
+			System.out.println("hello world");
 		}
 
 	}
