@@ -16,11 +16,13 @@ public class Program {
 		
 		//Shuffle the Cards
 		for(int i = 0; i < deck.length; i++) {
+			int index = (int)(Math.random() * deck.length);
+			int temp = deck[i];
+			deck[index] = temp;
 			
-			
-			System.out.println("hello world");
 		}
 
 	}
 
 }
+
